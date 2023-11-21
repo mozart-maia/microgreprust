@@ -29,7 +29,7 @@ fn main() -> Result<(), Error>{
     for eachline in result {
         counter = counter + 1;        
         if eachline.contains(word) {
-            println!("Na linha {}: {}", counter, eachline);
+            println!("In line {}: {}", counter, eachline);
         }
     }
 
